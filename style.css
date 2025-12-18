@@ -1,0 +1,92 @@
+/* ===== Style général ===== */
+body {
+    /* Style principal du corps de la page : police, couleurs, centrage, taille du texte et espacement */
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #d4edda, #a8d5a3);
+    color: #1b3d1b;
+    margin: 0;
+    padding: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* ===== Titres ===== */
+h1 {
+    /* Style du titre principal : couleur, centrage et ombre */
+    text-align: center;
+    color: #2e6b2e;
+    text-shadow: 1px 1px 2px #a3d9a5;
+}
+
+h2, h3 {
+    /* Style des sous-titres : même couleur que h1 sans centrage ni ombre */
+    color: #2e6b2e;
+}
+
+/* ===== Paragraphes et listes ===== */
+p, li {
+    /* Taille et espacement du texte dans les paragraphes et les listes */
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* ===== Boutons ===== */
+button {
+    /* Style général des boutons : couleur, taille, arrondi, transition au survol */
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    /* Changement de couleur au survol */
+    background-color: #367c36;
+}
+
+/* ===== Liens ===== */
+a {
+    /* Style des liens : couleur et suppression du soulignement */
+    color: #1b3d1b;
+    text-decoration: none;
+}
+
+a:hover {
+    /* Soulignement au survol pour indiquer cliquable */
+    text-decoration: underline;
+}
+
+/* ===== Listes ===== */
+ul {
+    /* Décalage à gauche des listes */
+    padding-left: 20px;
+}
+
+/* ===== Messages ===== */
+p[style*="color:green"], p[style*="color:darkred"] {
+    /* Met en gras les messages importants (ex : clé trouvée ou erreur) */
+    font-weight: bold;
+}
+
+/* ===== Conteneur passages ===== */
+ul li {
+    /* Petit espace entre les éléments de la liste */
+    margin: 5px 0;
+}
+
+/* ===== Formulaires ===== */
+form {
+    /* Centre les formulaires et ajoute un espace autour */
+    margin: 15px 0;
+    text-align: center;
+}
