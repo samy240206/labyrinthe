@@ -1,17 +1,9 @@
-<<<<<<< HEAD
 /* ===== Style général ===== */
 body {
-    /* Style principal du corps de la page : police, couleurs, centrage, taille du texte et espacement */
+    /* Style principal du corps de la page : police, couleurs, dégradé, centrage, taille du texte et espacement */
     font-family: Arial, sans-serif;
     background: linear-gradient(to bottom, #d4edda, #a8d5a3);
     color: #1b3d1b;
-=======
-
-body {
-    font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom, #d4edda, #a8d5a3); 
-    color: #1b3d1b; 
->>>>>>> 2b34c527e4102b0c0d6df9fe3901c4e7b179e090
     margin: 0;
     padding: 20px;
     max-width: 800px;
@@ -19,7 +11,6 @@ body {
     margin-right: auto;
     border-radius: 15px;
     box-shadow: 0 0 15px rgba(0,0,0,0.3);
-<<<<<<< HEAD
     font-size: 18px;
     line-height: 1.6;
 }
@@ -27,22 +18,12 @@ body {
 /* ===== Titres ===== */
 h1 {
     /* Style du titre principal : couleur, centrage et ombre */
-=======
-    font-size: 18px; 
-    line-height: 1.6;
-}
-
-
-
-h1 {
->>>>>>> 2b34c527e4102b0c0d6df9fe3901c4e7b179e090
     text-align: center;
     color: #2e6b2e;
     text-shadow: 1px 1px 2px #a3d9a5;
 }
 
 h2, h3 {
-<<<<<<< HEAD
     /* Style des sous-titres : même couleur que h1 sans centrage ni ombre */
     color: #2e6b2e;
 }
@@ -50,27 +31,14 @@ h2, h3 {
 /* ===== Paragraphes et listes ===== */
 p, li {
     /* Taille et espacement du texte dans les paragraphes et les listes */
-=======
-    color: #2e6b2e;
-}
-
-
-p, li {
->>>>>>> 2b34c527e4102b0c0d6df9fe3901c4e7b179e090
     font-size: 16px;
     line-height: 1.5;
 }
 
-<<<<<<< HEAD
 /* ===== Boutons ===== */
 button {
     /* Style général des boutons : couleur, taille, arrondi, transition au survol */
     background-color: #4caf50;
-=======
-
-button {
-    background-color: #4caf50; 
->>>>>>> 2b34c527e4102b0c0d6df9fe3901c4e7b179e090
     color: white;
     border: none;
     padding: 10px 20px;
@@ -82,7 +50,6 @@ button {
 }
 
 button:hover {
-<<<<<<< HEAD
     /* Changement de couleur au survol */
     background-color: #367c36;
 }
@@ -90,19 +57,11 @@ button:hover {
 /* ===== Liens ===== */
 a {
     /* Style des liens : couleur et suppression du soulignement */
-=======
-    background-color: #367c36;
-}
-
-
-a {
->>>>>>> 2b34c527e4102b0c0d6df9fe3901c4e7b179e090
     color: #1b3d1b;
     text-decoration: none;
 }
 
 a:hover {
-<<<<<<< HEAD
     /* Soulignement au survol pour indiquer cliquable */
     text-decoration: underline;
 }
@@ -131,32 +90,3 @@ form {
     margin: 15px 0;
     text-align: center;
 }
-=======
-    text-decoration: underline;
-}
-
-
-ul {
-    padding-left: 20px;
-}
-
-
-p[style*="color:green"] {
-    font-weight: bold;
-}
-
-p[style*="color:darkred"] {
-    font-weight: bold;
-}
-
-
-ul li {
-    margin: 5px 0;
-}
-
-
-form {
-    margin: 15px 0;
-    text-align: center;
-}
->>>>>>> 2b34c527e4102b0c0d6df9fe3901c4e7b179e090
